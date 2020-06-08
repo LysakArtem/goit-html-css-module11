@@ -1,0 +1,77 @@
+.servises{
+    padding: 40px 10px;
+   }
+   
+   .servise-list{
+       display:-webkit-box;
+       display:-ms-flexbox;
+       display:flex;
+        justify-content: space-between;
+       list-style: none;
+        flex-wrap: wrap;
+   }
+   
+   .servise-list__item{
+        box-sizing: border-box;
+       display: block;
+       width:382px;
+       padding-left: 82px;
+       position:relative;
+   }
+   
+   .servise-list__item:not(:nth-last-of-type(-n+3)){
+       margin-bottom:92px;
+   }
+   
+   .servise-list__title{
+       text-transform: uppercase;
+       font-size: 14px;
+       color: #333333;
+       font-family: "Montserrat";
+       font-weight: 400;
+       margin-bottom:15px;
+   }
+   
+   .servise-list__descr{
+       font-size: 15px;
+       line-height: 24px;
+       color: #999999;
+       font-family: "Roboto";
+       font-weight: 400;
+   }
+   
+   .servise-list__item:before{
+       display:block;
+       content:"";
+       width:32px;
+       height:32px;
+       position: absolute;
+       left:22px;
+       top:5px;
+       background-position: center;
+       background-repeat: no-repeat;
+   }
+   
+   .servise-list__item_icon-clock:before{
+       background-image: url("../images/icon-servises/icon-clock.svg");
+   }
+   
+   .servise-list__item_icon-wave:before{
+       background-image: url("../images/icon-servises/icon-wave.svg");
+   }
+   
+   .servise-list__item_icon-monitor:before{
+       background-image: url("../images/icon-servises/icon-monitor.svg");
+   }
+   
+   .servise-list__item_icon-book:before{
+       background-image: url("../images/icon-servises/icon-book.svg");
+   }
+   
+   .servise-list__item_icon-house:before{
+       background-image: url("../images/icon-servises/icon-house.svg");
+   }
+   
+   .servise-list__item_icon-focus:before{
+       background-image: url("../images/icon-servises/icon-focus.svg");
+   }

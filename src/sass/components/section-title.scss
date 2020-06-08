@@ -1,0 +1,29 @@
+.main-title_pre{
+    display: block;
+    font-size: 24px;
+    color: #333333;
+    font-family: "Kaushan Script";
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: none;
+}
+.main-title{
+    text-align: center;
+    margin-bottom:60px;
+    font-size: 30px;
+    color: #333333;
+    font-family: "Montserrat";
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.main-title::after{
+    display: block;
+    content:'';
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    margin: 0 auto;
+    margin-top:34px;
+}

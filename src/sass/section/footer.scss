@@ -1,0 +1,61 @@
+.footer{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 62px;
+    border-top: 1px solid #e5e5e5;;
+}
+
+.form-imail{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.copyright{
+    font-size: 14px;
+    color: #333333;
+    font-family: "Montserrat";
+    font-weight: 400;
+}
+
+.copyright span{
+    color:#f38181;
+}
+
+.form-imail__input{
+    width: 230px;
+    height: 40px;
+    border: 1px solid #e7e7e7;
+    box-sizing: border-box;
+    padding-left: 12px;
+}
+
+
+.form-imail__input::placeholder{
+    font-size: 15px;
+    line-height: 24px;
+    color: #cccccc;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-style: italic;
+}
+
+.form-imail__button{
+    width: 150px;
+    height: 40px;
+    background-color: #95e1d3;
+    font-size: 14px;
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    border:0;
+}
+
+.form-imail__button:hover{
+    cursor:pointer;
+}

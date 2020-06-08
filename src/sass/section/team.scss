@@ -1,0 +1,143 @@
+.team{
+    padding-bottom:56px;
+}
+
+.team__description{
+    width:980px;
+    margin:0 auto;
+    font-size: 15px;
+    line-height: 24px;
+    color: #999999;
+    font-family: "Roboto";
+    font-weight: 400;
+    text-align: center;
+    margin-bottom:74px;
+}
+
+.team-list{
+    list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack:justify;
+        -ms-flex-pack:justify;
+            justify-content:space-between;
+}
+
+
+.team-list__photo{
+    width:380px;
+    height:470px;
+    margin-bottom:30px;
+}
+
+.team-list__item{
+    position: relative;
+    font-size: 14px;
+    width:380px;
+    color: #333333;
+    font-family: "Montserrat";
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom:13px;
+    
+}
+
+.team-list__item-position{
+    position:relative;
+    font-size: 15px;
+    line-height: 24px;
+    color: #999999;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+}
+
+.team-list__overlay{
+    position: absolute;
+    width:380px;
+    height:470px;
+    /* background-color: #f38181; */
+    left:0px;
+    top:0px;
+    opacity: 0;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.team-list__overlay_pavel{
+    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(243,129,129,0.9)),to(rgba(251,227,137,0.9))), url("../img/team-pavel.png");
+    background-image: -o-linear-gradient(rgba(243,129,129,0.9),rgba(251,227,137,0.9)), url("../img/team-pavel.png");
+    background-image: linear-gradient(rgba(243,129,129,0.9),rgba(251,227,137,0.9)), url("../img/team-pavel.png");
+}
+
+.team-list__overlay_artem{
+    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(243,129,129,0.9)),to(rgba(251,227,137,0.9))), url("../img/team-artem.png");
+    background-image: -o-linear-gradient(rgba(243,129,129,0.9),rgba(251,227,137,0.9)), url("../img/team-artem.png");
+    background-image: linear-gradient(rgba(243,129,129,0.9),rgba(251,227,137,0.9)), url("../img/team-artem.png");
+}
+
+.team-list__overlay_igor{
+    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(243,129,129,0.9)),to(rgba(251,227,137,0.9))), url("../img/team-igor.png");
+    background-image: -o-linear-gradient(rgba(243,129,129,0.9),rgba(251,227,137,0.9)), url("../img/team-igor.png");
+    background-image: linear-gradient(rgba(243,129,129,0.9),rgba(251,227,137,0.9)), url("../img/team-igor.png");
+}
+
+.team-list__overlay:hover{
+    left:-10px;
+    top:-10px;
+    -webkit-box-shadow: 10px 10px 0 #95e1d3;
+            box-shadow: 10px 10px 0 #95e1d3;
+    opacity: 1;
+}
+
+.social-list{
+    height: inherit;
+    list-style-type: none;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.social-list__link{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 56px;
+    height: 56px;
+    background-color: #fce38a;
+    margin-right: 1px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-transition: background-color 0.2s linear;
+    -o-transition: background-color 0.2s linear;
+    transition: background-color 0.2s linear;
+}
+
+.social-list__link:hover{
+    background-color: #f38181;
+    fill:#fce38a;
+}
+
+.social-list__icon{
+    width: 26px;
+    height: 26px;
+    fill:#f38181;
+}
+
+.social-list__link:hover  .social-list__icon{
+    fill:#ffffff;
+}
